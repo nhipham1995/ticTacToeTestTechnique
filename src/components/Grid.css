@@ -1,0 +1,74 @@
+table#simple-board{
+    margin: auto;
+    border-spacing: 0;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+.grid-element {
+    min-width: 50px;
+    height: 50px;
+}
+
+td,
+th {
+border-top: 1px solid blue;
+border-left: 1px solid blue;
+padding: 0;
+}
+.player1 {
+    background-image: url('../assets/x-icon.png');
+    background-size: cover;
+}
+.player2 {
+    background-image: url('../assets/o-icon.png');
+    background-size: cover;
+}
+.space-grid, .space-grid.player1 {
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+.space-grid.player2{
+    height: 45px;
+    width: 45px;
+}
+.grid-size-input {
+  appearance: button;
+  background-color: #1652F0;
+  border: 1px solid #1652F0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+}
+
+.grid-size-input:disabled {
+  opacity: .5;
+}
+
+.grid-size-input:focus {
+  outline: 0;
+}
+
+.grid-size-input:hover {
+  background-color: #0A46E4;
+  border-color: #0A46E4;
+}
+
+.grid-size-input:active {
+  background-color: #0039D7;
+  border-color: #0039D7;
+}

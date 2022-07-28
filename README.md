@@ -1,0 +1,2 @@
+# ticTacToeTestTechnique
+Ce test technique est de faire un jeu de tic-tac-toe en utilisant javascript et le framework ReactJs. La description technique du jeu est trouvée dans le fichier Structure.pdf. 
